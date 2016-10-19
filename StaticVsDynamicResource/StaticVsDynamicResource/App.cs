@@ -14,7 +14,8 @@ namespace StaticVsDynamicResource
             // The root page of your application
 
 
-            MainPage = new StaticResourcePage();
+            //MainPage = new StaticResourcePage();
+            MainPage = new StaticVsDynamicPage();
         }
 
         protected override void OnStart()
